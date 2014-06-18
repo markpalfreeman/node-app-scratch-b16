@@ -1,0 +1,21 @@
+{
+  "name": "node-markgabe",
+  "version": "0.1.0",
+  "homepage": "https://github.com/markpalfreeman/node-app-scratch-b16",
+  "authors": [
+    "Mark Palfreeman (markpalfreeman@gmail.com)",
+    "Gabe Pelegrin (gabepelegrin@gmail.com)"
+  ],
+  "description": "Mark & Gabe's Node Express app",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
