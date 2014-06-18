@@ -1,0 +1,21 @@
+@import 'bourbon';
+// @import 'button';
+
+$color: beige;
+
+body {
+  background-color: $color;
+}
+
+.box {
+  @include border-bottom-radius(10px);
+  @include border-right-radius(10px);
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border-style: 1px solid blue;
+}
+
+// .button-rounded {
+//   @include button-rounded(20em, 10em, 1em, #aaa, 5%)
+// }
