@@ -7,7 +7,8 @@ module.exports = function(grunt) {
         },
         options: {
           includePaths: [
-            require('node-bourbon').includePaths
+            require('node-bourbon').includePaths,
+            './bower_components/button'
           ]
         }
       }

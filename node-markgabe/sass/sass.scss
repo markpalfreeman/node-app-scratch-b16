@@ -1,5 +1,5 @@
 @import 'bourbon';
-// @import 'button';
+@import 'button';
 
 $color: beige;
 
@@ -16,6 +16,6 @@ body {
   border-style: 1px solid blue;
 }
 
-// .button-rounded {
-//   @include button-rounded(20em, 10em, 1em, #aaa, 5%)
-// }
+.button {
+  @include button-rounded(20em, 10em, 1em, #aaa, 5%)
+}
